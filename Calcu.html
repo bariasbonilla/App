@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    
+
+    <style> 
+
+    {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic, CenturyGothic, appleGothic, sams-serif;
+
+    }
+
+    .calculadora{
+
+background: #ededed;
+width: fit-content;
+margin: auto;
+margin-top: 30px;
+    }
+    .teclas{
+        display: flex;
+        padding: 18px;
+    }
+
+.pantalla{
+padding: 18px 18px 0px 18px;
+
+}
+.numeros{
+padding: 18px 9px 18px 18px;
+}
+
+.op {
+    padding: 18px 18px 18px 9px;
+}
+
+#resultado{
+background-color: #555;
+padding: 9px;
+
+}
+
+.op button{
+display: block;
+width: 24px;
+height: 24px;
+padding: 9px 15px;
+background-color: rgba(30,60,160,0.12);
+border:yellow; ;
+
+}
+
+.numeros div{
+
+    text-align: center; 
+
+}
+
+
+
+.numeros button{
+    margin: 1px 1px;
+    padding: 3px 6px;
+   width: 25px;
+   height: 25px;
+    border: 4px;
+    background-color: #48c;
+    transition: all 0.09s;
+
+}
+
+.numeros button:hover{
+box-shadow: 0px 0px 12px #ccc;
+}
+    
+ .button{
+        margin: 10px 4px;
+        padding: 20px 24px;
+        font-size: 19px;
+        }
+    
+    .sr{
+        padding:0px 18px 18px 18px;
+        border: none;
+        
+    }
+
+    .sr button{
+
+        width: 50%;
+        background-color: #48c;
+        color: #fff
+    }
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="calculadora">
+         <div class="pantalla">  
+           <div id="resultado"></div>
+         </div>
+    <div class="teclas">    
+         <div class="numeros">
+             <div>
+           <button id="n1">1</button>
+           <button id="n2">2</button>
+           <button id="n3">3</button>
+             </div>
+             <div>
+           <button id="n4">4</button>
+           <button id="n5">5</button>
+           <button id="n6">6</button>
+              </div>
+
+              <div>
+           <button id="n7">7</button>
+           <button id="n8">8</button>
+           <button id="n9">9</button>
+              </div>
+              <div>
+           <button id="n0">0</button>
+              </div>
+
+         </div>
+
+         <div class="op">
+           <button id="s">+</button>
+           <button id="r">-</button>
+           <button id="d">/</button>
+           <button id="m">*</button>
+
+         </div>
+         
+
+    </div>  
+
+    <div class="sr">
+        <button id="sr">=</button>
+        <button id="c" >C</button>
+    </div>   
+         
+    </div>
+<script src="app.js">  </script>
+    
+    
+</body>
+</html>
